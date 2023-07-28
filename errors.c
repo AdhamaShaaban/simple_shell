@@ -28,8 +28,8 @@ void _eputs(char *str)
  */
 int _eputchar(char c)
 {
-	static int i = 0;
-	static char buf[WRITE_BUF_SIZE] = {0};
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
 
 	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
 	{
@@ -51,8 +51,8 @@ int _eputchar(char c)
  */
 int _putfd(char c, int fd)
 {
-	static int i = 0;
-	static char buf[WRITE_BUF_SIZE] = {0};
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
 
 	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
 	{
