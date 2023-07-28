@@ -1,4 +1,4 @@
-
+#include "shell.h"
 
 /**
  * **strtow - String split in words. Ignore repeated delimiters
