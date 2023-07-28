@@ -81,7 +81,7 @@ int replace_alias(info_t *info)
 	list_t *node;
 	char *pointer;
 
-	for (itr = 0; itr alias, info->argv[0], '=');
+	for (itr = 0; itr alias, info->argv[0], '=')
 		if (!node)
 			return (0);
 		free(info->argv[0]);
