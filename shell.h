@@ -100,8 +100,8 @@ typedef struct passinfo
 		0, 0, 0}
 
 /**
- * struct builtin - inside it related function & builtin string
- * @type: builtin flag command 
+ * struct builtin-inside it related function & builtin string
+ * @type: builtin flag command
  * @func: function
  */
 typedef struct builtin
